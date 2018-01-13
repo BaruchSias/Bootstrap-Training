@@ -1,0 +1,13 @@
+/*@media(max-width: 800px){} Mobile
+		@media(min-width: 800px){} Desktop
+		@media(min-width: 800px) and (max-width: 1200px){}*/
+#mainContainer{
+	background-color: blue;
+	height: 100px;
+}
+
+@media(max-width: 800px){
+#mainContainer{
+	background-color: red;
+}
+}
